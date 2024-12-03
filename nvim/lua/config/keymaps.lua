@@ -5,4 +5,4 @@ local keymap = vim.api.nvim_set_keymap
 keymap("i", "jj", "<ESC>", opts)
 
 -- Compiler code
-keymap("n", ",c", ":r!python3 %<CR>", opts)
+keymap("n", ",c", "G:r!python3 %<CR>", opts)
